@@ -311,6 +311,18 @@ header .menu-toggle {
   transition: .25s;
 }
 
+.content .main-content .post-content p{
+  font-size: 21px;
+}
+
+.content .main-content .post-content a{
+  color: #197afa;
+}
+
+.content .main-content .post-content a:hover{
+  text-decoration: underline;
+}
+
 .content .main-content .post .post-image {
   width: 40%;
   height: 100%;
@@ -359,6 +371,7 @@ header .menu-toggle {
   list-style: none;
   border-top: 1px solid #e0e0e0;
 }
+
 
 .content .sidebar .section.topics ul li a {
   display: block;
