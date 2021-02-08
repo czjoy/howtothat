@@ -6,6 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+
+ <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type='text/javascript'>
+                      $(function(){
+                        $("#topics").load("topics.html");
+                      });
+                </script>
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -20,8 +29,9 @@
 </head>
 
 <body>
+
+
   <!-- Facebook Page Plugin SDK -->
-  
 
   <header>
     <div class="logo">
@@ -32,19 +42,7 @@
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Services</a></li>
-      <!-- <li><a href="#">Sign Up</a></li>
-      <li><a href="#">Login</a></li> -->
-      <li>
-        <a href="#">
-          <i class="fa fa-user"></i>
-          Awa Melvine
-          <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
-        </a>
-        <ul>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#" class="logout">Logout</a></li>
-        </ul>
-      </li>
+
     </ul>
   </header>
 
@@ -57,88 +55,80 @@
       <!-- Main Content Wrapper -->
       <div class="main-content-wrapper">
         <div class="main-content single">
-          <h1 class="post-title">This is the title of the Post</h1>
-
           <div class="post-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi error rerum possimus animi! Eos!
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat at molestias vitae! Ipsa
-              repudiandae praesentium nobis nesciunt, iusto pariatur tenetur commodi! Iste sequi placeat dolores nulla,
-              expedita voluptas officiis.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, facere iste! Ex quia hic recusandae
-              optio velit ad consectetur totam sed sunt quasi voluptates, sequi molestias alias sapiente iste asperiores
-              nostrum est voluptatem quae earum accusantium. Totam dolorem possimus rem!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nisi.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi error rerum possimus animi! Eos!
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat at molestias vitae! Ipsa
-              repudiandae praesentium nobis nesciunt, iusto pariatur tenetur commodi! Iste sequi placeat dolores nulla,
-              expedita voluptas officiis.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, facere iste! Ex quia hic recusandae
-              optio velit ad consectetur totam sed sunt quasi voluptates, sequi molestias alias sapiente iste asperiores
-              nostrum est voluptatem quae earum accusantium. Totam dolorem possimus rem!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nisi.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi error rerum possimus animi! Eos!
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat at molestias vitae! Ipsa
-              repudiandae praesentium nobis nesciunt, iusto pariatur tenetur commodi! Iste sequi placeat dolores nulla,
-              expedita voluptas officiis.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, facere iste! Ex quia hic recusandae
-              optio velit ad consectetur totam sed sunt quasi voluptates, sequi molestias alias sapiente iste asperiores
-              nostrum est voluptatem quae earum accusantium. Totam dolorem possimus rem!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nisi.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi error rerum possimus animi! Eos!
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat at molestias vitae! Ipsa
-              repudiandae praesentium nobis nesciunt, iusto pariatur tenetur commodi! Iste sequi placeat dolores nulla,
-              expedita voluptas officiis.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, facere iste! Ex quia hic recusandae
-              optio velit ad consectetur totam sed sunt quasi voluptates, sequi molestias alias sapiente iste asperiores
-              nostrum est voluptatem quae earum accusantium. Totam dolorem possimus rem!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nisi.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi error rerum possimus animi! Eos!
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat at molestias vitae! Ipsa
-              repudiandae praesentium nobis nesciunt, iusto pariatur tenetur commodi! Iste sequi placeat dolores nulla,
-              expedita voluptas officiis.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, facere iste! Ex quia hic recusandae
-              optio velit ad consectetur totam sed sunt quasi voluptates, sequi molestias alias sapiente iste asperiores
-              nostrum est voluptatem quae earum accusantium. Totam dolorem possimus rem!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nisi.</p>
+            <h1 class="post-title">This is the title of the Post</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi error rerum possimus animi! Eos!
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat at molestias vitae! Ipsa
+                repudiandae praesentium nobis nesciunt, iusto pariatur tenetur commodi! Iste sequi placeat dolores nulla,
+                expedita voluptas officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, facere iste! Ex quia hic recusandae
+                optio velit ad consectetur totam sed sunt quasi voluptates, sequi molestias alias sapiente iste asperiores
+                nostrum est voluptatem quae earum accusantium. Totam dolorem possimus rem!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nisi.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi error rerum possimus animi! Eos!
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat at molestias vitae! Ipsa
+                repudiandae praesentium nobis nesciunt, iusto pariatur tenetur commodi! Iste sequi placeat dolores nulla,
+                expedita voluptas officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, facere iste! Ex quia hic recusandae
+                optio velit ad consectetur totam sed sunt quasi voluptates, sequi molestias alias sapiente iste asperiores
+                nostrum est voluptatem quae earum <a href="single.html">voluptatem quae earum cz czcz</a> accusantium. Totam dolorem possimus rem!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nisi.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi error rerum possimus animi! Eos!
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat at molestias vitae! Ipsa
+                repudiandae praesentium nobis nesciunt, iusto pariatur tenetur commodi! Iste sequi placeat dolores nulla,
+                expedita voluptas officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, facere iste! Ex quia hic recusandae
+                optio velit ad consectetur totam sed sunt quasi voluptates, sequi molestias alias sapiente iste asperiores
+                nostrum est voluptatem quae earum accusantium. Totam dolorem possimus rem!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nisi.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi error rerum possimus animi! Eos!
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat at molestias vitae! Ipsa
+                repudiandae praesentium nobis nesciunt, iusto pariatur tenetur commodi! Iste sequi placeat dolores nulla,
+                expedita voluptas officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, facere iste! Ex quia hic recusandae
+                optio velit ad consectetur totam sed sunt quasi voluptates, sequi molestias alias sapiente iste asperiores
+                nostrum est voluptatem quae earum accusantium. Totam dolorem possimus rem!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nisi.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi error rerum possimus animi! Eos!
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat at molestias vitae! Ipsa
+                repudiandae praesentium nobis nesciunt, iusto pariatur tenetur commodi! Iste sequi placeat dolores nulla,
+                expedita voluptas officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, facere iste! Ex quia hic recusandae
+                optio velit ad consectetur totam sed sunt quasi voluptates, sequi molestias alias sapiente iste asperiores
+                nostrum est voluptatem quae earum accusantium. Totam dolorem possimus rem!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nisi.</p>
           </div>
-
         </div>
+
       </div>
       <!-- // Main Content -->
 
       <!-- Sidebar -->
       <div class="sidebar single">
 
-       
 
-
-        <div class="section popular">
-          <h2 class="section-title">Popular</h2>
-
-          <div class="post clearfix">
-            <a href="">
-              <h4>How to overcome your fears</h4>
-            </a>
-          </div>
-          <div class="post clearfix">
-            <a href="">
-              <h4>How to overcome your fears</h4>
-            </a>
-          </div><div class="post clearfix">
-            <a href="">
-              <h4>How to overcome your fears</h4>
-            </a>
-          </div>
-          
-
-        </div>
 
         <div class="section topics">
+          <h2 class="section-title">Related</h2>
+            <b><p><a href="#">how to learn anything really fast super that no one can \do</a></b></p> 
+            <b><p><a href="#">how to learn anything really fast</a></b></p> 
+        </div>
+
+
+        <!-- // topics -->
+        <div class="section topics">
+          <h2 class="section-title">Topics</h2>
+          <ul>
+          <div id="topics"></div>
+                
+          </ul>
+        </div>
+      <!-- <div class="section topics">
           <h2 class="section-title">Topics</h2>
           <ul>
             <li><a href="#">Poems</a></li>
@@ -150,7 +140,8 @@
             <li><a href="#">Life Lessons</a></li>
           </ul>
         </div>
-      </div>
+      </div>--> 
+
       <!-- // Sidebar -->
 
     </div>
@@ -169,16 +160,18 @@
           AwaInspires is a fictional blog conceived for the purpose of a tutorial on YouTube.
           However, Awa has a blog called pieceofadvice.org where he writes truly inspiring stuff.
         </p>
-        <div class="contact">
+
+        <!--<div class="contact">
           <span><i class="fas fa-phone"></i> &nbsp; 123-456-789</span>
           <span><i class="fas fa-envelope"></i> &nbsp; info@awainspires.com</span>
         </div>
+
         <div class="socials">
           <a href="#"><i class="fab fa-facebook"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
           <a href="#"><i class="fab fa-youtube"></i></a>
-        </div>
+        </div>-->
       </div>
 
       <div class="footer-section links">
@@ -225,14 +218,14 @@
   <!-- // footer -->
 
 
-  <!-- JQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+ 
 
   <!-- Slick Carousel -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   <!-- Custom Script -->
-  <script src="js/scripts.js"></script>
+  <!--<script src="js/scripts.js"></script>-->
 
 </body>
 
